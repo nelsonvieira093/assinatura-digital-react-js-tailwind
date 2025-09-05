@@ -1,7 +1,8 @@
 # Assinatura Digital — React (JSX) + Tailwind
 
-- React + Vite + React Router
+- React + Vite + React Router 
 - TailwindCSS (mobile-first)
+- Javascript
 - Upload de PDF, hash SHA-256 (Web Crypto), assinatura `SHA256(docHash + '#' + cpf)`
 - Persistência mock com localStorage
 - Vitest + Testing Library
@@ -15,3 +16,7 @@ npm run dev
 ```
 
 Admin padrão: `admin@akrk.dev / admin123` (pode alterar via `.env` com VITE_ADMIN_EMAIL e VITE_ADMIN_PASSWORD).
+
+DEMO https://assintura-digital.netlify.app/
+
+![alt text](image.png)
